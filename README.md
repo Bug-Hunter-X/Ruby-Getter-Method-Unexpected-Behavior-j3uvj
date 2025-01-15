@@ -1,0 +1,3 @@
+# Ruby Getter Method Unexpected Behavior
+
+This example demonstrates a subtle issue that can occur in Ruby when using getter methods.  Attempting to assign a value to a getter method does not modify the object's internal state, as the getter method is designed only to read the attribute, not modify it.  This can lead to unexpected behavior if not properly addressed. The solution shows the correct way to modify object attributes.
